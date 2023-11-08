@@ -9,6 +9,11 @@
             "id": 2,
             "name": "Buy something",
             "price": 200000
-        }
+        },
+        {
+          "id": 3,
+          "name": "Go to school",
+          "price": 500000
+      }
     ]
 }
