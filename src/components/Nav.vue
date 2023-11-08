@@ -1,0 +1,13 @@
+<template>
+  <nav class="nav">
+    <router-link to="/">Home</router-link>
+    <router-link :to="{ name: 'transaction-router' }">Tin tức</router-link>
+    <router-link to="/">Liên hệ</router-link>
+    <router-link to="/san-pham">Sản phẩm</router-link>
+  </nav>
+</template>
+<script>
+export default {
+  name: "NavApp",
+};
+</script>
