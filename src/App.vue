@@ -1,6 +1,10 @@
 <template>
   <h1>Đây là App....</h1>
-  <NavApp />
+  <NavApp>
+    <template v-slot:header>
+      <h2>Tôi là slot header</h2>
+    </template>
+  </NavApp>
   <router-view />
 </template>
 
