@@ -4,6 +4,7 @@
     <router-link :to="{ name: 'transaction-router' }">Tin tức</router-link>
     <router-link to="/">Liên hệ</router-link>
     <router-link to="/san-pham">Sản phẩm</router-link>
+    <router-link to="/trang-tri">Trang trí</router-link>
   </nav>
 </template>
 <script>
