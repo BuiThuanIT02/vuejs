@@ -2,6 +2,7 @@
   <div v-if="transactions != null">
     <h3>Transaction detail is here....</h3>
     <h2>ID: {{ $route.params.id }}</h2>
+    <!--  biến $route phạm vi toàn cục  -->
     <h2>{{ $route }}</h2>
     <p>Name: {{ transactions.name }}</p>
     <p>Price: {{ transactions.price }}</p>

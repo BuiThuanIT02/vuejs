@@ -19,7 +19,7 @@ const routes = [
     redirect: "/transaction", // điều hg
   },
   {
-    path: "/transaction/:id",
+    path: "/transaction/:id", // id có thể thay bằng tên khác, khi đó $route.parama.id cx thay đổi name id
     name: "transaction-detail-router",
     component: TransactionDetail,
   },
@@ -34,7 +34,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL), // dùng loại bỏ dấu #
   routes,
 });
 
